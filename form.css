@@ -1,0 +1,87 @@
+.container{
+    background-image: url(https://wallpapersmug.com/download/1920x1080/74b909/colorful-forms-abstract-4k.jpg);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+.form {
+    background-color: rgba(257, 257, 257, 0);
+    padding: 60px;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.747);
+    color: black; /* Adjusted for readability on white background */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.user, .pass {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(111, 160, 250); /* Adjusted for better contrast on white form */
+    border: none;
+    color: black;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    font-weight: 90;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(92, 123, 224);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.button:hover {
+    background-color: rgb(30, 66, 90);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.title{
+    font-size: 30px;
+    color: rgb(215, 255, 233);
+    font-family: Arial, sans-serif;
+    padding-left: 50px;
+}
+.userErr, .passErr{
+    color: red;
+    font-size: 12px;
+    padding-left: 50px;
+    display: none;
+}
+input{
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}

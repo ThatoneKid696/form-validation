@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script defer src="form.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form class="form" action="" onsubmit="return validateForm()" >
+            <h1 class="title">Create Your Account</h1>
+            <input class="user" type="text" name="username" id="username" placeholder="Username">
+            <p class="userErr">Please Check The Username</p>
+            <input class="pass" type="password" name="password" id="password" placeholder="Password">
+            <p class="passErr">Password Must Be 8 Characters</p>
+            <button class="button" type="submit">Sign-Up</button>
+        </form>
+    </div>
+</body>
+</html>
